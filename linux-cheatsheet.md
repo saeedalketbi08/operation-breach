@@ -12,5 +12,10 @@
 - **-size**: an option that tells find to match the files by their size. example: `find . -size 1033c`
 - **cd**: lets you go into a directory. example `cd inhere`
 - **-a**: shows all files including hidden files. example: `ls -a`
-- ** `*`**: shows every file name. example: `file ./*`
+- **`*`**: shows every file name. example: `file ./*`
 - **..**: lets you get back to the previous folder. example `cd ..`
+- **`/`**: its the top folder of the whole server. example: `find /`
+- **-user**: it tells the find to match files owned by a specific username. example: `find / -user bandit7`
+- **-group**: tells the find to match the files owned by a specific group name. example: `find / -group bandit6`
+- **2>/dev/null**: removes the errors and throws them in the trash and then shows you the correct ones. example: `find / -user bandit7 -group bandit6 -size 33c 2>/dev/null `
+- **grep**: finds lines inside a file. example: `grep millionth data.txt`
