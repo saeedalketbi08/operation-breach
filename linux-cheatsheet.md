@@ -23,3 +23,8 @@
 - **uniq**: looks at lines that are under each other and deals with the ones that apear more than once, -u shows lines that appear once only. example `sort data.txt | uniq -u`
 - **|**: The pipe takes the result of the first command then hands it to the second one. example: `ls | sort`
 - **--help**: shows a commands options and what each one does, its like a built in instruction manual. example: `uniq --help`
+- **strings**: goes through a binary file and shows you the text that are readable only. example: `strings data.txt`
+- **base64**: encodes data rewriting the data with random letter and numbers and ends with = at the end. -d decodes the data. example: `base64 -d`
+- **tr**: changes characters for other characters. example: `cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'`
+- **ctrl+c**: cancels whatever is running. example: `ctrl+c`
+- 
