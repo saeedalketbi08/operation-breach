@@ -19,3 +19,7 @@
 - **-group**: tells the find to match the files owned by a specific group name. example: `find / -group bandit6`
 - **2>/dev/null**: removes the errors and throws them in the trash and then shows you the correct ones. example: `find / -user bandit7 -group bandit6 -size 33c 2>/dev/null `
 - **grep**: finds lines inside a file. example: `grep millionth data.txt`
+- **sort**: sorts the lines in alphabetical order. example `sort data.txt`
+- **uniq**: looks at lines that are under each other and deals with the ones that apear more than once, -u shows lines that appear once only. example `sort data.txt | uniq -u`
+- **|**: The pipe takes the result of the first command then hands it to the second one. example: `ls | sort`
+- **--help**: shows a commands options and what each one does, its like a built in instruction manual. example: `uniq --help`
