@@ -27,4 +27,14 @@
 - **base64**: encodes data rewriting the data with random letter and numbers and ends with = at the end. -d decodes the data. example: `base64 -d`
 - **tr**: changes characters for other characters. example: `cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'`
 - **ctrl+c**: cancels whatever is running. example: `ctrl+c`
-- 
+- pwd : shows which folder im in currently. Example: `pwd`
+- mktemp -d: creates you a new folder, in /tmp, with a random hard-to-guess name, and it prints that name. Example: `mktemp -d`
+- ~ : your home folder. example: cp `~`/data.txt .
+- . : current folder. example: cp ~/data.txt `.`
+- cp ~/data.txt . :copies the file data.txt from your home folder to the current folder. example: `cp ~/data.txt .`
+- `>` : takes result and places it in a file instead on the screen ( can overwrite without warning). `example: xxd -r data.txt `>` data1`
+- xxd -r : reverts a hexdump into the original file. example: `xxd -r data.txt > data1`
+- gzip -d : decompresses the gzip file. example: `gzip -d data1.gz`
+- bzip2 -d : decompresses the bzip2 file. example: `bzip2 -d data6.bz2`
+- tar -xf : extracts files from a tar archive. example: `tar -xf data1.tar`
+- mv : renames the file moves files ( can overwrite without warning). Example: `mv data1 data1.gz`
