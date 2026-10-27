@@ -38,3 +38,7 @@
 - bzip2 -d : decompresses the bzip2 file. example: `bzip2 -d data6.bz2`
 - tar -xf : extracts files from a tar archive. example: `tar -xf data1.tar`
 - mv : renames the file moves files ( can overwrite without warning). Example: `mv data1 data1.gz`
+- scp: copies a file between the server and your laptop with the same login as SSH uses capital P for port. example: `scp -P 2220 bandit13@bandit.labs.overthewire.org:sshkey.private $HOME/Desktop/bandit14_scp.key`
+- icacls: command that changes or views the permission of files. example: `icacls $HOME\Desktop\bandit14.key /inheritance:r`
+- ssh -i: ssh -i lets you log in using an identity file (a private key) instead of password. example: `ssh -i ~/Desktop/bandit14_scp.key bandit14@bandit.labs.overthewire.org -p 2220`
+- exit: logs you out of the server and takes you back to your own laptop’s terminal. example: just `exit`
