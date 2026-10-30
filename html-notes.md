@@ -24,3 +24,6 @@ What it does: creates a button you can press for example for a login
 
 ## Tag vs attribute
 the tag decides what the element is, and attribute adds the settings or info
+
+## ID
+An id gives an element a unique name, so CSS, JavaScript or a link can find that exact element.
