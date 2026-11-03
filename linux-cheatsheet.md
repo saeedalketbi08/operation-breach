@@ -42,7 +42,10 @@
 - icacls: command that changes or views the permission of files. example: `icacls $HOME\Desktop\bandit14.key /inheritance:r`
 - ssh -i: ssh -i lets you log in using an identity file (a private key) instead of password. example: `ssh -i ~/Desktop/bandit14_scp.key bandit14@bandit.labs.overthewire.org -p 2220`
 - exit: logs you out of the server and takes you back to your own laptop’s terminal. example: just `exit`
-
+- whoami: shows who you are what computer youre using. example: `whoami`
+- **uname -a**: shows the system information. example: `uname -a`
+- **~**: find ~ means look from the home directory. example: `find ~ -name`
+- **df -h**: shows disk space. example: `df -h`
 
 ## Windows
 
