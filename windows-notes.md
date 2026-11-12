@@ -17,6 +17,6 @@
 - 2–5 things I learned:
 - found out what control panel does, learned how to edit the desktop(gui)
 ## Windows Fundamentals 2
-- msconfig Startup tab is empty on this VM because:
-- How to see startup programs on Windows Server:
-- Why attackers care about the startup folder:
+- msconfig Startup tab is empty on this VM because: the windows server is works differently than window client
+- How to see startup programs on Windows Server: msconfig and the startup tab
+- Why attackers care about the startup folder: they can get access and full control over the machine they can edit and gain information
