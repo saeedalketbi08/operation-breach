@@ -20,3 +20,4 @@
 - msconfig Startup tab is empty on this VM because: the windows server is works differently than window client
 - How to see startup programs on Windows Server: msconfig and the startup tab
 - Why attackers care about the startup folder: they can get access and full control over the machine they can edit and gain information
+- Startup folder → persistence: attacker’s program runs again at every login, so they keep access after a reboot.
