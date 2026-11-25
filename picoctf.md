@@ -16,6 +16,6 @@ Step 5: ROT13 applied → tr 'a-zA-Z' 'n-za-mN-ZA-M'
 
 **name**: printer shares
 
-**key idea**:retrieve the file from the print server, the protocol is the smb, with guest access no password required, then you connect to the shares using smbclient without the -L and then u get access to the printer server
+**key idea**:guest access with no password. First list the shares with smbclient -L //host -p port, then connect to the share with smbclient //host/shares -p port (no -L), then download the file with get flag.txt.
 
-**what tripped you up**: using smbclient and sharenames
+**what tripped you up**: using smbclient and share names (I used the comment instead of the name, and picked IPC$ first), plus using an old port after relaunching the instance.
