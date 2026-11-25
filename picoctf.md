@@ -11,3 +11,7 @@ Step 5: ROT13 applied → tr 'a-zA-Z' 'n-za-mN-ZA-M'
 **Steps:** What did you do, in order? (Start from opening the file in Notepad.) i downloaded the log they gave me but it appeared to be too long for me to use it in notepad,so i used wget in the workspace to download the file then used grep to filter all the flagpart and then i put them in order,
 **Commands/tools:** Which commands did you use? (2 of them): grep and wget
 **What I learned:** One thing you understand now that you didn't this morning. how to get the words youre looking for faster
+
+name: printer shares
+key idea: retrieve the file from the print server, the protocol is the smb, with guest access no password required, then you connect to the shares using smbclient without the -L and then u get access to the printer server
+what tripped you up: using smbclient and sharenames
