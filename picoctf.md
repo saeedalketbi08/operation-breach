@@ -13,5 +13,7 @@ Step 5: ROT13 applied → tr 'a-zA-Z' 'n-za-mN-ZA-M'
 **What I learned:** One thing you understand now that you didn't this morning. how to get the words youre looking for faster
 
 **name**: printer shares
-**key idea**: retrieve the file from the print server, the protocol is the smb, with guest access no password required, then you connect to the shares using smbclient without the -L and then u get access to the printer server
+
+**key idea**:retrieve the file from the print server, the protocol is the smb, with guest access no password required, then you connect to the shares using smbclient without the -L and then u get access to the printer server
+
 **what tripped you up**: using smbclient and sharenames
