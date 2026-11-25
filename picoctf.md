@@ -12,6 +12,8 @@ Step 5: ROT13 applied → tr 'a-zA-Z' 'n-za-mN-ZA-M'
 **Commands/tools:** Which commands did you use? (2 of them): grep and wget
 **What I learned:** One thing you understand now that you didn't this morning. how to get the words youre looking for faster
 
+## Printer shares
+
 **name**: printer shares
 
 **key idea**:retrieve the file from the print server, the protocol is the smb, with guest access no password required, then you connect to the shares using smbclient without the -L and then u get access to the printer server
