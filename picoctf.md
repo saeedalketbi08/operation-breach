@@ -19,3 +19,11 @@ Step 5: ROT13 applied → tr 'a-zA-Z' 'n-za-mN-ZA-M'
 **key idea**:guest access with no password. First list the shares with smbclient -L //host -p port, then connect to the share with smbclient //host/shares -p port (no -L), then download the file with get flag.txt.
 
 **what tripped you up**: using smbclient and share names (I used the comment instead of the name, and picked IPC$ first), plus using an old port after relaunching the instance.
+
+## Time Machine
+
+**name**: time machine
+
+**key idea**: finding out what the person was working on, he left a message for us and a file to download, i used wget to download the file, then unzip the file, used ls to check the new found file, used to cat to see what the message was, found out the person used it before so i used git log to check the commit history.
+
+**what tripped you up**: when using unzip because so much appeared all at once so i was confused for a lil.
